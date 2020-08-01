@@ -1,5 +1,5 @@
 class CityListApi {
-    fetchAvailableCities = () => fetch('https://raw.githubusercontent.com/example0312/weather-crawler/master/availableCityNames')
+    fetchAvailableCities = () => fetch('http://localhost:8080/weather-service/available-cities')
         .then(response => response.json());
 }
 

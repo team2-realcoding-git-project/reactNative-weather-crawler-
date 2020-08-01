@@ -2,7 +2,6 @@ import React from 'react';
 import { ActivityIndicator, Image, StyleSheet, View, Text } from 'react-native';
 import { MaterialCommunityIcons } from '@expo/vector-icons';
 import openWeatherApi from '../api/OpenWeatherApi';
-import Constants from 'expo-constants';
 import _get from 'lodash.get';
 
 export default class WeatherDetailScreen extends React.Component {
